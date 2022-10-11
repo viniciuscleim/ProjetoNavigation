@@ -18,7 +18,8 @@ class ViewController: UIViewController {
     @IBAction func tappedButton(_ sender: UIButton) {
         
         let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SecondViewController") as? SecondViewController
-        present(vc ?? UIViewController(), animated: true)
+        // present(vc ?? UIViewController(), animated: true)
+        navigationController?.pushViewController(vc ?? UIViewController(), animated: false)
         
         
     }
