@@ -38,21 +38,6 @@
             </objects>
             <point key="canvasLocation" x="900" y="4.9763033175355451"/>
         </scene>
-        <!--Second View Controller-->
-        <scene sceneID="2uh-0p-Jbu">
-            <objects>
-                <viewController storyboardIdentifier="SecondViewController" id="aLi-YY-6QE" customClass="SecondViewController" customModule="ProjetoNavigation" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Bn9-lU-GSa">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="eP3-0J-UFP"/>
-                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tRp-05-bvm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1715" y="5"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="PLd-5K-eaN">
             <objects>
@@ -75,9 +60,6 @@
     <resources>
         <systemColor name="systemMintColor">
             <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
