@@ -34,7 +34,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Q8R-fz-mgS"/>
                     <connections>
-                        <segue destination="0E7-qH-hN6" kind="presentation" identifier="goTela02" id="NNt-L4-bBf"/>
+                        <segue destination="K9e-XK-H9Q" kind="show" identifier="goTela02" id="PmX-B8-1g1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -42,19 +42,20 @@
             <point key="canvasLocation" x="1069.2307692307693" y="3.5545023696682461"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="wcU-EG-a54">
+        <scene sceneID="6pP-2S-wjo">
             <objects>
-                <viewController id="0E7-qH-hN6" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="1PC-St-IYP">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="787"/>
+                <viewController id="K9e-XK-H9Q" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ib2-RC-qQS">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="Fw0-Vc-VUe"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <viewLayoutGuide key="safeArea" id="6FF-Xd-G6P"/>
+                        <color key="backgroundColor" systemColor="systemRedColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="gaT-Dc-ScX"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FC9-4J-SuR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RYn-pd-Msu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1817" y="4"/>
+            <point key="canvasLocation" x="1797" y="4"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="LRt-N3-Zfg">
@@ -76,11 +77,11 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemCyanColor">
             <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
