@@ -24,12 +24,21 @@
                                     <action selector="tappedButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="s1Z-lg-RjE"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bem Vindo a Tela 02" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DED-q4-bIG">
+                                <rect key="frame" x="87.000000000000014" y="102" width="219.33333333333337" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                         <constraints>
                             <constraint firstItem="bDr-hH-RGu" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="atg-P6-ADX"/>
                             <constraint firstItem="bDr-hH-RGu" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="btS-iV-ekp"/>
+                            <constraint firstItem="DED-q4-bIG" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="87" id="epv-Mp-Y2b"/>
+                            <constraint firstItem="DED-q4-bIG" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="55" id="s4n-U8-JwT"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="DED-q4-bIG" secondAttribute="trailing" constant="83.670000000000002" id="yVL-x7-DU4"/>
                         </constraints>
                     </view>
                 </viewController>

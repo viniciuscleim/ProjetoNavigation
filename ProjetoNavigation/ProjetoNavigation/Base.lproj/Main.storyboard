@@ -24,11 +24,20 @@
                                     <action selector="tappedButton:" destination="qaV-Wk-rwu" eventType="touchUpInside" id="wb9-Tb-lAE"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bem Vindo a Tela 01" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7fu-Kc-EfF">
+                                <rect key="frame" x="87" y="146" width="216" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eHB-U7-CyV"/>
                         <color key="backgroundColor" systemColor="systemMintColor"/>
                         <constraints>
+                            <constraint firstItem="7fu-Kc-EfF" firstAttribute="leading" secondItem="eHB-U7-CyV" secondAttribute="leading" constant="87" id="6Ab-Wc-037"/>
+                            <constraint firstItem="7fu-Kc-EfF" firstAttribute="top" secondItem="eHB-U7-CyV" secondAttribute="top" constant="55" id="CiL-iq-dk9"/>
                             <constraint firstItem="TmX-BR-xPq" firstAttribute="centerY" secondItem="4qe-aw-Bz5" secondAttribute="centerY" id="GbC-nN-Z96"/>
+                            <constraint firstItem="eHB-U7-CyV" firstAttribute="trailing" secondItem="7fu-Kc-EfF" secondAttribute="trailing" constant="87" id="bJZ-nz-LTy"/>
                             <constraint firstItem="TmX-BR-xPq" firstAttribute="centerX" secondItem="4qe-aw-Bz5" secondAttribute="centerX" id="rCZ-0O-rjw"/>
                         </constraints>
                     </view>

@@ -24,12 +24,21 @@
                                     <action selector="tappedButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="7Mi-NI-b2H"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bem Vindo a Tela 03" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0A3-MA-Gbx">
+                                <rect key="frame" x="85" y="102" width="220" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                         <constraints>
                             <constraint firstItem="ONY-Jx-IPc" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="2Xn-IN-rkz"/>
+                            <constraint firstItem="0A3-MA-Gbx" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="85" id="Weq-oK-Fc1"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="0A3-MA-Gbx" secondAttribute="trailing" constant="85" id="bCD-aN-Ewa"/>
                             <constraint firstItem="ONY-Jx-IPc" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="ogh-Qg-bun"/>
+                            <constraint firstItem="0A3-MA-Gbx" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="55" id="uPK-p3-z4Y"/>
                         </constraints>
                     </view>
                 </viewController>
